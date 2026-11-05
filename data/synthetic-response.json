@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "origin": "PC, using existing environment network configuration",
+  "target": "http://dm.wo.com.cn:18080/register",
+  "method": "POST",
+  "requests_sent": 1,
+  "synthetic_only": true,
+  "real_device_data_sent": false,
+  "request_body_bytes": 240,
+  "status_code": 200,
+  "reason": "OK",
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "0"
+  },
+  "body_bytes": 0,
+  "elapsed_seconds": 0.132,
+  "redirects_followed": false,
+  "proof_of_business_acceptance_or_storage": false,
+  "note": "Historical observation only; no automatic request script is included."
+}

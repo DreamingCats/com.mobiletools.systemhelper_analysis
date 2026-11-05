@@ -1,0 +1,38 @@
+{
+  "model": "realme GT5 Pro (RMX3888)",
+  "analysis_method": "Codex + ADB + su",
+  "date": "2026-11-05",
+  "evidence_phase": "before_owner_uninstall",
+  "pending_rows": 7,
+  "standalone_signal_rows": 16,
+  "nested_signal_rows": 184,
+  "signal_records_total": 200,
+  "distinct_locations_not_inferred": true,
+  "app_statistics": [
+    {
+      "entry_count": 195,
+      "nonzero_foreground_time_count": 36
+    },
+    {
+      "entry_count": 225,
+      "nonzero_foreground_time_count": 51
+    }
+  ],
+  "signal_batch_counts": [
+    46,
+    48,
+    48,
+    42
+  ],
+  "network_untagged_totals": {
+    "tx_bytes": 2460119,
+    "rx_bytes": 2680335
+  },
+  "network_totals_prove_destination_or_payload": false,
+  "existing_logcat_bytes": 0,
+  "owner_reported_root_uninstall_reboot_ok": true,
+  "owner_uninstall_independently_verified": false,
+  "telephony_and_data_after_uninstall_fully_tested": false,
+  "raw_application_entries_distributed": false,
+  "real_identifiers_and_coordinates_distributed": false
+}

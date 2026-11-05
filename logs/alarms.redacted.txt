@@ -1,0 +1,21 @@
+    ELAPSED_WAKEUP #38: Alarm{<OBJECT> type 2 <ELAPSED_TIME_REDACTED> <ELAPSED_TIME_REDACTED> com.mobiletools.systemhelper} uid <APP_UID> <ELAPSED_TIME_REDACTED> windowLength 1350000 <ELAPSED_TIME_REDACTED> repeatInterval 0 action null component ComponentInfo{com.mobiletools.systemhelper/com.mobiletools.systemhelper.control.GetSignalInfoReceiver} flags 0x8 procName com.mobiletools.systemhelper
+      tag=*walarm*:com.mobiletools.systemhelper/.control.GetSignalInfoReceiver
+    ELAPSED_WAKEUP #58: Alarm{<OBJECT> type 2 <ELAPSED_TIME_REDACTED> <ELAPSED_TIME_REDACTED> com.mobiletools.systemhelper} uid <APP_UID> <ELAPSED_TIME_REDACTED> windowLength 3600000 <ELAPSED_TIME_REDACTED> repeatInterval 0 action null component ComponentInfo{com.mobiletools.systemhelper/com.mobiletools.systemhelper.control.SignalInfoRegisterReceiver} flags 0x8 procName com.mobiletools.systemhelper
+      tag=*walarm*:com.mobiletools.systemhelper/.control.SignalInfoRegisterReceiver
+    ELAPSED_WAKEUP #152: Alarm{<OBJECT> type 2 <ELAPSED_TIME_REDACTED> <ELAPSED_TIME_REDACTED> com.mobiletools.systemhelper} uid <APP_UID> <ELAPSED_TIME_REDACTED> windowLength 3600000 <ELAPSED_TIME_REDACTED> repeatInterval 0 action null component ComponentInfo{com.mobiletools.systemhelper/com.mobiletools.systemhelper.control.AppInfoRegisterReceiver} flags 0x8 procName com.mobiletools.systemhelper
+      tag=*walarm*:com.mobiletools.systemhelper/.control.AppInfoRegisterReceiver
+    ELAPSED_WAKEUP #192: Alarm{<OBJECT> type 2 <ELAPSED_TIME_REDACTED> <ELAPSED_TIME_REDACTED> com.mobiletools.systemhelper} uid <APP_UID> <ELAPSED_TIME_REDACTED> windowLength 3600000 <ELAPSED_TIME_REDACTED> repeatInterval 0 action null component ComponentInfo{com.mobiletools.systemhelper/com.mobiletools.systemhelper.control.ScheduleRegisterReceiver} flags 0x8 procName com.mobiletools.systemhelper
+      tag=*walarm*:com.mobiletools.systemhelper/.control.ScheduleRegisterReceiver
+  <APP_USER>:com.mobiletools.systemhelper +1m28s84ms running, 523 wakeups:
+    +1m21s77ms 474 wakes 474 alarms, last <RELATIVE_TIME_REDACTED>
+      *walarm*:com.mobiletools.systemhelper/.control.GetSignalInfoReceiver
+    +3s827ms 23 wakes 23 alarms, last <RELATIVE_TIME_REDACTED>
+      *walarm*:com.mobiletools.systemhelper/.control.SignalInfoRegisterReceiver
+    +2s678ms 12 wakes 12 alarms, last <RELATIVE_TIME_REDACTED>
+      *walarm*:com.mobiletools.systemhelper/.control.ScheduleRegisterReceiver
+    +2s321ms 12 wakes 12 alarms, last <RELATIVE_TIME_REDACTED>
+      *walarm*:com.mobiletools.systemhelper/.control.AppInfoRegisterReceiver
+    +123ms 1 wakes 1 alarms, last <RELATIVE_TIME_REDACTED>
+      *walarm*:com.mobiletools.systemhelper/.control.OnBootReceiver
+    +121ms 1 wakes 1 alarms, last <RELATIVE_TIME_REDACTED>
+      *walarm*:com.mobiletools.systemhelper/.control.SIMStateReceiver

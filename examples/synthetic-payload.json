@@ -1,0 +1,9 @@
+{
+  "SpecVersion": "5.0",
+  "Manuf": "SYNTHETIC_TEST",
+  "Model": "NO_REAL_DEVICE",
+  "RegType": "TEST",
+  "Time": "2026-11-05T11:43:11.771Z",
+  "TestOnly": true,
+  "Note": "Synthetic connectivity probe. No real device, SIM, application or location data."
+}

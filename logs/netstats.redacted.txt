@@ -1,0 +1,151 @@
+  ident=[{type=0, ratType=-2, subscriberId=<REDACTED>, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=9250 rp=18 tb=4333 tp=16 op=0
+  ident=[{type=0, ratType=0, subscriberId=<REDACTED>, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=2}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=0 rp=0 tb=252 tp=4 op=0
+  ident=[{type=0, ratType=13, subscriberId=<REDACTED>, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=2}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=7322 rp=13 tb=2227 tp=11 op=0
+  ident=[{type=0, ratType=13, subscriberId=<REDACTED>, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=7991 rp=20 tb=2471 tp=17 op=0
+      st=<BUCKET_TIME_REDACTED> rb=348 rp=5 tb=204 tp=3 op=0
+  ident=[{type=0, ratType=20, subscriberId=<REDACTED>, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=2}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=29961 rp=62 tb=9508 tp=55 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30925 rp=76 tb=10044 tp=62 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22572 rp=48 tb=7285 tp=44 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15428 rp=38 tb=4954 tp=30 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15029 rp=32 tb=4770 tp=27 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22471 rp=47 tb=7185 tp=42 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7443 rp=15 tb=2299 tp=13 op=0
+  ident=[{type=0, ratType=20, subscriberId=<REDACTED>, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=16639 rp=50 tb=35375 tp=58 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15386 rp=32 tb=4810 tp=27 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22272 rp=41 tb=6845 tp=39 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7552 rp=14 tb=2211 tp=13 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7573 rp=14 tb=2347 tp=13 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23062 rp=47 tb=7121 tp=41 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23580 rp=54 tb=7381 tp=45 op=0
+      st=<BUCKET_TIME_REDACTED> rb=24585 rp=70 tb=25212 tp=65 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23157 rp=47 tb=8505 tp=44 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22800 rp=42 tb=7097 tp=39 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30568 rp=65 tb=9628 tp=56 op=0
+      st=<BUCKET_TIME_REDACTED> rb=33210 rp=107 tb=66635 tp=108 op=0
+      st=<BUCKET_TIME_REDACTED> rb=29867 rp=55 tb=9288 tp=52 op=0
+      st=<BUCKET_TIME_REDACTED> rb=32164 rp=85 tb=51633 tp=92 op=0
+      st=<BUCKET_TIME_REDACTED> rb=0 rp=0 tb=60 tp=1 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23685 rp=58 tb=31272 tp=64 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22723 rp=42 tb=6953 tp=39 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7161 rp=13 tb=2283 tp=12 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30531 rp=60 tb=9352 tp=53 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22654 rp=46 tb=7137 tp=40 op=0
+      st=<BUCKET_TIME_REDACTED> rb=14742 rp=27 tb=4706 tp=26 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25313 rp=86 tb=79239 tp=103 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22650 rp=46 tb=7137 tp=41 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7922 rp=19 tb=2463 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30559 rp=65 tb=9684 tp=57 op=0
+      st=<BUCKET_TIME_REDACTED> rb=31144 rp=63 tb=11322 tp=61 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15388 rp=32 tb=4790 tp=27 op=0
+      st=<BUCKET_TIME_REDACTED> rb=32723 rp=92 tb=42961 tp=90 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22687 rp=42 tb=6981 tp=40 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7623 rp=15 tb=2387 tp=14 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7576 rp=14 tb=3191 tp=25 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22721 rp=42 tb=6993 tp=39 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30641 rp=61 tb=9476 tp=54 op=0
+      st=<BUCKET_TIME_REDACTED> rb=32942 rp=102 tb=41851 tp=91 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30945 rp=66 tb=9704 tp=59 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25540 rp=92 tb=93703 tp=113 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7570 rp=14 tb=2399 tp=13 op=0
+      st=<BUCKET_TIME_REDACTED> rb=18702 rp=94 tb=98330 tp=106 op=0
+      st=<BUCKET_TIME_REDACTED> rb=32280 rp=87 tb=36993 tp=86 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23389 rp=52 tb=7525 tp=43 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30486 rp=64 tb=9764 tp=54 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7805 rp=18 tb=2511 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22968 rp=46 tb=7113 tp=41 op=0
+      st=<BUCKET_TIME_REDACTED> rb=14326 rp=26 tb=4510 tp=24 op=0
+      st=<BUCKET_TIME_REDACTED> rb=30475 rp=69 tb=9756 tp=58 op=0
+      st=<BUCKET_TIME_REDACTED> rb=17466 rp=58 tb=20590 tp=53 op=0
+      st=<BUCKET_TIME_REDACTED> rb=24181 rp=62 tb=37580 tp=71 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7835 rp=18 tb=2435 tp=14 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15141 rp=28 tb=4662 tp=26 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22636 rp=46 tb=7157 tp=41 op=0
+      st=<BUCKET_TIME_REDACTED> rb=16558 rp=51 tb=25129 tp=56 op=0
+      st=<BUCKET_TIME_REDACTED> rb=31026 rp=67 tb=9804 tp=58 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8023 rp=20 tb=3244 tp=17 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey=<REDACTED>, metered=false, defaultNetwork=true, oemManaged=OEM_NONE, subId=-1}] uid=<APP_UID> set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=7200
+      st=<BUCKET_TIME_REDACTED> rb=8316 rp=13 tb=2395 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=33272 rp=52 tb=9804 tp=60 op=0
+      st=<BUCKET_TIME_REDACTED> rb=32078 rp=51 tb=9692 tp=59 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25013 rp=39 tb=7389 tp=44 op=0
+      st=<BUCKET_TIME_REDACTED> rb=33310 rp=52 tb=9884 tp=60 op=0
+      st=<BUCKET_TIME_REDACTED> rb=16648 rp=26 tb=4854 tp=30 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8318 rp=13 tb=2435 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=17156 rp=34 tb=5022 tp=32 op=0
+      st=<BUCKET_TIME_REDACTED> rb=24988 rp=39 tb=7361 tp=45 op=0
+      st=<BUCKET_TIME_REDACTED> rb=34043 rp=64 tb=9872 tp=62 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25234 rp=43 tb=7405 tp=46 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8336 rp=13 tb=2443 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7467 rp=12 tb=2032 tp=14 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19178 rp=71 tb=54689 tp=75 op=0
+      st=<BUCKET_TIME_REDACTED> rb=37167 rp=130 tb=121252 tp=156 op=0
+      st=<BUCKET_TIME_REDACTED> rb=33608 rp=56 tb=9892 tp=61 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8601 rp=17 tb=2555 tp=16 op=0
+      st=<BUCKET_TIME_REDACTED> rb=17773 rp=36 tb=8124 tp=39 op=0
+      st=<BUCKET_TIME_REDACTED> rb=35643 rp=95 tb=70606 tp=117 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25007 rp=39 tb=7485 tp=45 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8600 rp=17 tb=2467 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=16998 rp=31 tb=5046 tp=32 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19399 rp=72 tb=58904 tp=79 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8300 rp=13 tb=2447 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=22768 rp=41 tb=7573 tp=47 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8336 rp=13 tb=2459 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=14297 rp=28 tb=4978 tp=32 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8300 rp=13 tb=2479 tp=15 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8205 rp=12 tb=2379 tp=13 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19188 rp=71 tb=49363 tp=71 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7213 rp=14 tb=2499 tp=16 op=0
+      st=<BUCKET_TIME_REDACTED> rb=14674 rp=32 tb=5022 tp=33 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19362 rp=74 tb=52763 tp=74 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7170 rp=13 tb=2255 tp=12 op=0
+      st=<BUCKET_TIME_REDACTED> rb=32209 rp=53 tb=9764 tp=59 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7198 rp=14 tb=2535 tp=16 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23841 rp=40 tb=7441 tp=46 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7481 rp=18 tb=2591 tp=17 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19198 rp=71 tb=50237 tp=72 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7215 rp=14 tb=2531 tp=16 op=0
+      st=<BUCKET_TIME_REDACTED> rb=16935 rp=30 tb=4954 tp=30 op=0
+      st=<BUCKET_TIME_REDACTED> rb=20237 rp=94 tb=83674 tp=97 op=0
+      st=<BUCKET_TIME_REDACTED> rb=14676 rp=32 tb=4998 tp=32 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7484 rp=18 tb=2615 tp=17 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19206 rp=72 tb=55553 tp=76 op=0
+      st=<BUCKET_TIME_REDACTED> rb=36480 rp=107 tb=78392 tp=121 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15812 rp=31 tb=5094 tp=31 op=0
+      st=<BUCKET_TIME_REDACTED> rb=14356 rp=28 tb=5114 tp=32 op=0
+      st=<BUCKET_TIME_REDACTED> rb=29979 rp=67 tb=12171 tp=74 op=0
+      st=<BUCKET_TIME_REDACTED> rb=28834 rp=56 tb=10120 tp=64 op=0
+      st=<BUCKET_TIME_REDACTED> rb=23462 rp=72 tb=38298 tp=79 op=0
+      st=<BUCKET_TIME_REDACTED> rb=28865 rp=56 tb=10236 tp=64 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8267 rp=13 tb=2455 tp=14 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25395 rp=45 tb=7497 tp=45 op=0
+      st=<BUCKET_TIME_REDACTED> rb=26724 rp=59 tb=24151 tp=67 op=0
+      st=<BUCKET_TIME_REDACTED> rb=31332 rp=54 tb=10024 tp=62 op=0
+      st=<BUCKET_TIME_REDACTED> rb=15312 rp=32 tb=5066 tp=33 op=0
+      st=<BUCKET_TIME_REDACTED> rb=27411 rp=84 tb=56446 tp=89 op=0
+      st=<BUCKET_TIME_REDACTED> rb=26559 rp=67 tb=38425 tp=78 op=0
+      st=<BUCKET_TIME_REDACTED> rb=7218 rp=14 tb=2519 tp=16 op=0
+      st=<BUCKET_TIME_REDACTED> rb=19387 rp=80 tb=69968 tp=90 op=0
+      st=<BUCKET_TIME_REDACTED> rb=25268 rp=43 tb=7445 tp=46 op=0
+      st=<BUCKET_TIME_REDACTED> rb=18218 rp=50 tb=34231 tp=58 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8274 rp=12 tb=2343 tp=13 op=0
+      st=<BUCKET_TIME_REDACTED> rb=18979 rp=96 tb=84146 tp=98 op=0
+      st=<BUCKET_TIME_REDACTED> rb=34896 rp=98 tb=97944 tp=130 op=0
+      st=<BUCKET_TIME_REDACTED> rb=21637 rp=42 tb=7425 tp=48 op=0
+      st=<BUCKET_TIME_REDACTED> rb=21641 rp=42 tb=7389 tp=47 op=0
+      st=<BUCKET_TIME_REDACTED> rb=28728 rp=55 tb=10060 tp=64 op=0
+      st=<BUCKET_TIME_REDACTED> rb=31054 rp=96 tb=62981 tp=108 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8371 rp=13 tb=2251 tp=12 op=0
+      st=<BUCKET_TIME_REDACTED> rb=8338 rp=13 tb=2443 tp=15 op=0

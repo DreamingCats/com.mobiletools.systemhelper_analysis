@@ -1,0 +1,24 @@
+{
+  "package": "com.mobiletools.systemhelper",
+  "version_name": "3.0.1-20250822",
+  "version_code": 31,
+  "size_bytes": 3744059,
+  "sha256": "9eb0d23aef28b4ed93806bfa9a574814805d362d935a610fb5cb4728a7ca4003",
+  "min_sdk": 31,
+  "target_sdk": 33,
+  "device_model": "realme GT5 Pro",
+  "device_code": "RMX3888",
+  "android_release": "16",
+  "rom": "RMX3888_16.0.10.500(CN01)",
+  "original_code_path": "/product/priv-app/SystemHelper-oppo-20250822/SystemHelper-oppo-20250822.apk",
+  "signature_schemes_verified": [
+    "v2"
+  ],
+  "signer_dn": "CN=NewDM, OU=RI, O=CU, L=BJ, ST=BJ, C=86",
+  "signer_certificate_sha256": "874b8ca2297f53a373b1b935c134cb0eb1ff7381e54491b88c643a6b9c46db77",
+  "signer_rsa_bits": 2048,
+  "embedded_upload_certificate_dn": "CN=UNICOM, OU=UNICOM, O=UNICOM, L=BJ, ST=BJ, C=CN",
+  "embedded_upload_certificate_rsa_bits": 1024,
+  "embedded_upload_certificate_sha256": "810c0122ba6af7a4b6a5921fdbbbf9197fb2e0b2e82de0c5aa40d28f1b7c6501",
+  "apk_and_embedded_files_distributed": false
+}
