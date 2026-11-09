@@ -1,0 +1,409 @@
+{
+  "analysis_date": "2026-11-09",
+  "realme_sample": "sample.json",
+  "redmi_sample": "sample-redmi-20260313.json",
+  "comparison_type": "static APK comparison; realme runtime observations remain separate",
+  "manifest": {
+    "added_permissions": [],
+    "removed_permissions": [],
+    "permission_count": 17,
+    "components_semantically_identical": true,
+    "same_shared_user_id": true
+  },
+  "wire_fields": {
+    "device": {
+      "realme": [
+        "5GEnabled1",
+        "5GEnabled2",
+        "AccType",
+        "AppInfo",
+        "CID1",
+        "CID2",
+        "ClientVersion",
+        "DataSlot",
+        "DeviceType",
+        "HWVersion",
+        "ICCID1",
+        "ICCID2",
+        "IMEI1",
+        "IMEI2",
+        "IMSI1",
+        "IMSI2",
+        "IPv6",
+        "MNC1",
+        "MNC2",
+        "Manuf",
+        "Model",
+        "NetworkType1",
+        "NetworkType2",
+        "OS",
+        "OSVersion",
+        "PCI1",
+        "PCI2",
+        "RegType",
+        "SWVersion",
+        "SigInfo",
+        "SpecVersion",
+        "SubType",
+        "TAC1",
+        "TAC2",
+        "Time",
+        "VoNREnable1",
+        "VoNREnable2",
+        "VolteEnabled1",
+        "VolteEnabled2"
+      ],
+      "redmi": [
+        "5GEnabled1",
+        "5GEnabled2",
+        "AccType",
+        "AppInfo",
+        "BSSID",
+        "CID1",
+        "CID2",
+        "ClientVersion",
+        "DataSlot",
+        "DeviceType",
+        "Esim",
+        "Frequency",
+        "HWVersion",
+        "ICCID1",
+        "ICCID2",
+        "IMEI1",
+        "IMEI2",
+        "IMSI1",
+        "IMSI2",
+        "IPv6",
+        "InactiveEsimMNC",
+        "LinkSpeed",
+        "MNC1",
+        "MNC2",
+        "Manuf",
+        "Model",
+        "NetworkType1",
+        "NetworkType2",
+        "OS",
+        "OSVersion",
+        "PCI1",
+        "PCI2",
+        "RSSI",
+        "RegType",
+        "SWVersion",
+        "SigInfo",
+        "SpecVersion",
+        "SubType",
+        "TAC1",
+        "TAC2",
+        "Time",
+        "VoNREnable1",
+        "VoNREnable2",
+        "VolteEnabled1",
+        "VolteEnabled2"
+      ],
+      "added": [
+        "BSSID",
+        "Esim",
+        "Frequency",
+        "InactiveEsimMNC",
+        "LinkSpeed",
+        "RSSI"
+      ],
+      "removed": []
+    },
+    "app": {
+      "realme": [
+        "Time",
+        "appLabel",
+        "pkgName",
+        "runTime",
+        "rx1",
+        "rx2",
+        "totalData1",
+        "totalData2",
+        "totalDataWiFi",
+        "tx1",
+        "tx2"
+      ],
+      "redmi": [
+        "Time",
+        "appLabel",
+        "launchCount",
+        "pkgName",
+        "runTime",
+        "rx1",
+        "rx2",
+        "totalData1",
+        "totalData2",
+        "totalDataWiFi",
+        "tx1",
+        "tx2"
+      ],
+      "added": [
+        "launchCount"
+      ],
+      "removed": []
+    },
+    "signal": {
+      "realme": [
+        "ALTITUDE",
+        "ARFCN",
+        "BEARING",
+        "Bands",
+        "Bandwidth",
+        "CID",
+        "CQIIndex",
+        "CQITableIndex",
+        "CSIRSRP",
+        "CSIRSRQ",
+        "CSISINR",
+        "CallDisconnectCause",
+        "ClientVersion",
+        "DataFailCause",
+        "Dspeed",
+        "EPSFallback",
+        "ICCID",
+        "IMEI",
+        "IMSI",
+        "LATITUDE",
+        "LONGITUDE",
+        "MNC",
+        "NetworkType",
+        "PCI",
+        "RSRP",
+        "RSRQ",
+        "SINR",
+        "SPEED",
+        "TAC",
+        "Time",
+        "Uspeed"
+      ],
+      "redmi": [
+        "ALTITUDE",
+        "ARFCN",
+        "BEARING",
+        "BSSID",
+        "Bands",
+        "Bandwidth",
+        "CID",
+        "CQIIndex",
+        "CQITableIndex",
+        "CSIRSRP",
+        "CSIRSRQ",
+        "CSISINR",
+        "CallDisconnectCause",
+        "ClientVersion",
+        "DataFailCause",
+        "District",
+        "Dspeed",
+        "EPSFallback",
+        "ICCID",
+        "IMEI",
+        "IMSI",
+        "LATITUDE",
+        "LONGITUDE",
+        "MNC",
+        "NetworkType",
+        "PCI",
+        "RSRP",
+        "RSRQ",
+        "SINR",
+        "SPEED",
+        "SSID",
+        "TAC",
+        "Time",
+        "Uspeed"
+      ],
+      "added": [
+        "BSSID",
+        "District",
+        "SSID"
+      ],
+      "removed": []
+    }
+  },
+  "archive": {
+    "left_entries": 407,
+    "right_entries": 410,
+    "added_entries": [
+      "META-INF/CERT.RSA",
+      "META-INF/CERT.SF",
+      "META-INF/MANIFEST.MF"
+    ],
+    "removed_entries": [],
+    "changed_entries": [
+      {
+        "path": "AndroidManifest.xml",
+        "realme_bytes": 9820,
+        "redmi_bytes": 9820
+      },
+      {
+        "path": "classes.dex",
+        "realme_bytes": 1277020,
+        "redmi_bytes": 1283720
+      }
+    ],
+    "unchanged_entry_count": 405,
+    "byte_identical_native_and_public_cert": [
+      "assets/pub.cer",
+      "lib/arm64-v8a/libindoor.so",
+      "lib/arm64-v8a/liblocSDK8b.so"
+    ]
+  },
+  "url_literals": {
+    "realme_count": 19,
+    "redmi_count": 19,
+    "includes_one_format_template": true,
+    "added": [],
+    "removed": []
+  },
+  "unchanged_protocol": {
+    "default_url": "http://dm.wo.com.cn:18080/register",
+    "content_type": "application/encrypted-json",
+    "aes": "AES/ECB/PKCS5Padding",
+    "aes_key": "MD5(UTF8(JSON))",
+    "rsa": "RSA/ECB/PKCS1Padding",
+    "rsa_plaintext": "16-byte AES key",
+    "response_codes_treated_as_success": [
+      200,
+      416
+    ]
+  },
+  "default_intervals_ms": {
+    "app_info": 86400000,
+    "schedule": 86400000,
+    "signal_upload": 43200000,
+    "signal_collection": 1800000
+  },
+  "new_field_semantics": {
+    "launchCount": "Count of matching UsageEvents types 1 plus 7 in the usage window, not distinct cold starts",
+    "District": "Concatenation of country + province + city + district; no demonstrated street/house-number concatenation",
+    "Esim": "Two-character embedded-subscription status representation",
+    "InactiveEsimMNC": "Comma-separated MCC+MNC for embedded subscriptions not in the active subscription list"
+  },
+  "runtime_validation": {
+    "redmi_logs": "skipped at owner request",
+    "redmi_permissions": "not measured",
+    "redmi_database": "not extracted",
+    "redmi_network": "not tested",
+    "redmi_removal": "not tested",
+    "realme_evidence_not_reassigned_to_redmi": true
+  },
+  "evidence_locators": {
+    "wifi_device": {
+      "file": "f1/a.java",
+      "method": "f1.a.b(Context,e1.b)",
+      "jadx_line": 219,
+      "source_distributed": false
+    },
+    "wifi_signal": {
+      "file": "e1/d.java",
+      "method": "e1.d.d(Context,int,g1.n)",
+      "jadx_line": 314,
+      "source_distributed": false
+    },
+    "district_callback": {
+      "file": "com/mobiletools/systemhelper/control/GetSignalInfoReceiver.java",
+      "method": "GetSignalInfoReceiver.a.d(b1.c)",
+      "jadx_line": 57,
+      "source_distributed": false
+    },
+    "district_serialization": {
+      "file": "g1/n.java",
+      "method": "g1.n.a()",
+      "jadx_line": 144,
+      "source_distributed": false
+    },
+    "ssid_serialization": {
+      "file": "g1/n.java",
+      "method": "g1.n.a()",
+      "jadx_line": 148,
+      "source_distributed": false
+    },
+    "address_option": {
+      "file": "b1/h.java",
+      "method": "b1.h.l(boolean)",
+      "jadx_line": 285,
+      "source_distributed": false
+    },
+    "address_option_call": {
+      "file": "com/mobiletools/systemhelper/control/GetSignalInfoReceiver.java",
+      "method": "GetSignalInfoReceiver.d(b1.b)",
+      "jadx_line": 145,
+      "source_distributed": false
+    },
+    "launch_count": {
+      "file": "e1/f.java",
+      "method": "e1.f.b(UsageStatsManager,String)",
+      "jadx_line": 85,
+      "source_distributed": false
+    },
+    "launch_serialization": {
+      "file": "g1/b.java",
+      "method": "g1.b.a()",
+      "jadx_line": 65,
+      "source_distributed": false
+    },
+    "inactive_esim": {
+      "file": "f1/a.java",
+      "method": "f1.a.f(Context)",
+      "jadx_line": 288,
+      "source_distributed": false
+    },
+    "esim_status": {
+      "file": "f1/a.java",
+      "method": "f1.a.d/e/l(Context,...)",
+      "jadx_line": 262,
+      "source_distributed": false
+    },
+    "xiaomi_gate": {
+      "file": "f1/m.java",
+      "method": "f1.m.t(Context)",
+      "jadx_line": 21,
+      "source_distributed": false
+    },
+    "hyperos_version": {
+      "file": "f1/m.java",
+      "method": "f1.m.j/w/x/y()",
+      "jadx_line": 50,
+      "source_distributed": false
+    },
+    "encrypted_send": {
+      "file": "e1/g.java",
+      "method": "e1.g.a(e1.b)",
+      "jadx_line": 33,
+      "source_distributed": false
+    },
+    "crypto": {
+      "file": "g1/c.java",
+      "method": "g1.c.d(String)",
+      "jadx_line": 65,
+      "source_distributed": false
+    },
+    "cache_signal": {
+      "file": "g1/m.java",
+      "method": "g1.m.c(String)",
+      "jadx_line": 54,
+      "source_distributed": false
+    },
+    "signal_batch": {
+      "file": "f1/o.java",
+      "method": "f1.o.d(Context,String)",
+      "jadx_line": 99,
+      "source_distributed": false
+    },
+    "exported_binder": {
+      "file": "com/mobiletools/systemhelper/service/RegisterHelperService.java",
+      "method": "RegisterHelperService.onBind(Intent)",
+      "jadx_line": 56,
+      "source_distributed": false
+    },
+    "binder_token_only": {
+      "file": "com/mobiletools/systemhelper/service/a.java",
+      "method": "service.a.AbstractBinderC0019a.onTransact(...)",
+      "jadx_line": 25,
+      "source_distributed": false
+    }
+  },
+  "raw_code_and_binaries_distributed": false,
+  "wire_field_extraction_note": "Literal JSONObject keys plus AppInfo/SigInfo variable keys manually traced; field presence is static, not a runtime value claim."
+}

@@ -34,5 +34,7 @@
   "owner_uninstall_independently_verified": false,
   "telephony_and_data_after_uninstall_fully_tested": false,
   "raw_application_entries_distributed": false,
-  "real_identifiers_and_coordinates_distributed": false
+  "real_identifiers_and_coordinates_distributed": false,
+  "sample_reference": "sample.json",
+  "redmi_evidence_included": false
 }

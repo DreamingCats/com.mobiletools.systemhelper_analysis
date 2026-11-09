@@ -1,0 +1,78 @@
+{
+  "package": "com.mobiletools.systemhelper",
+  "analysis_date": "2026-11-09",
+  "analysis_mode": "APK static analysis only; no ADB collection, runtime test or new server request",
+  "source_filename": "SystemHelper_3.0.1-20260313-redmi.apk",
+  "version_name": "3.0.1-20260313",
+  "version_code": 34,
+  "size_bytes": 3831041,
+  "sha256": "1de8d965e295db27e189aa179cdb45438d7f759cffbb43ce55f840b614ff6c65",
+  "min_sdk": 31,
+  "target_sdk": 34,
+  "compile_sdk": 34,
+  "device_model": "Redmi K40",
+  "reported_os": "HyperOS 3",
+  "device_and_os_source": "device owner report; not independently read from device",
+  "android_release": null,
+  "full_rom_build": null,
+  "original_code_path": null,
+  "owner_reports_root_available": false,
+  "device_logs_collected": false,
+  "device_grants_verified": false,
+  "device_database_collected": false,
+  "device_upload_verified": false,
+  "shared_user_id": "com.mobiletools.systemhelper.uid",
+  "permission_count": 17,
+  "signer_dn": "EMAILADDRESS=miui@xiaomi.com, CN=MIUI, OU=MIUI, O=Xiaomi, L=Beijing, ST=Beijing, C=CN",
+  "signer_certificate_sha256": "c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025",
+  "signer_rsa_bits": 2048,
+  "signature_schemes_individually_verified": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "signature_verification_profiles": [
+    {
+      "min_sdk": 31,
+      "max_sdk": null,
+      "verified_scheme": "v3"
+    },
+    {
+      "min_sdk": 24,
+      "max_sdk": 27,
+      "verified_scheme": "v2"
+    },
+    {
+      "min_sdk": 21,
+      "max_sdk": 23,
+      "verified_scheme": "v1"
+    }
+  ],
+  "signature_profile_note": "Lower SDK overrides select signature verification paths only; actual APK minSdk remains 31. Default verifier false flags do not establish absence of older schemes.",
+  "platform_signing_key_match_verified": false,
+  "embedded_upload_certificate_dn": "CN=UNICOM, OU=UNICOM, O=UNICOM, L=BJ, ST=BJ, C=CN",
+  "embedded_upload_certificate_rsa_bits": 1024,
+  "embedded_upload_certificate_sha256": "810c0122ba6af7a4b6a5921fdbbbf9197fb2e0b2e82de0c5aa40d28f1b7c6501",
+  "embedded_upload_certificate_byte_identical_to_realme": true,
+  "dex_files": [
+    {
+      "name": "classes.dex",
+      "bytes": 1283720
+    }
+  ],
+  "native_libraries": [
+    {
+      "name": "lib/arm64-v8a/libindoor.so",
+      "bytes": 1596896,
+      "byte_identical_to_realme": true
+    },
+    {
+      "name": "lib/arm64-v8a/liblocSDK8b.so",
+      "bytes": 368568,
+      "byte_identical_to_realme": true
+    }
+  ],
+  "jadx_version": "1.5.6",
+  "jadx_reported_errors": 6,
+  "apk_and_embedded_files_distributed": false
+}

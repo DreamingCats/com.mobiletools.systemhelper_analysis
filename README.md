@@ -1,22 +1,31 @@
 # com.mobiletools.systemhelper_analysis
 
-**分析机型：realme GT5 Pro（RMX3888）。分析方式：Codex + ADB + su（root 只读取证）。**
+**分析对象：realme GT5 Pro（RMX3888）与 Redmi K40。分析／文稿：Codex。**
 
-本仓库记录一个指定版本 SystemHelper 的静态代码分析、设备端权限与缓存核对、历史网络统计，以及一条不含真实个人数据的合成请求测试。分析与文稿署名 **Codex**；样本和后续卸载反馈由设备所有者提供。
+realme：Codex + ADB + su（root 只读取证，2026-11-05）；Redmi：用户提供 APK 的静态分析（HyperOS 3，2026-11-09），按要求跳过日志提取和动态验证。
+
+本仓库记录两份指定版本 SystemHelper 的静态分析及对比；设备端权限／缓存、历史网络统计与一条合成请求测试仅属于 realme 取证阶段。分析与文稿署名 **Codex**；样本和后续卸载反馈由设备所有者提供。
 
 ## 样本与范围
 
-| 项目 | 本次分析对象 |
-|---|---|
-| 包名 | `com.mobiletools.systemhelper` |
-| 机型 | **realme GT5 Pro / RMX3888** |
-| Android / ROM | Android 16 / `RMX3888_16.0.10.500(CN01)` |
-| APK 版本 | `3.0.1-20250822`，versionCode 31 |
-| APK SHA-256 | `9eb0d23aef28b4ed93806bfa9a574814805d362d935a610fb5cb4728a7ca4003` |
-| 原系统位置 | `/product/priv-app/SystemHelper-oppo-20250822/SystemHelper-oppo-20250822.apk` |
-| 分析日期 | 2026-11-05，UTC+8 |
+| 项目 | realme 样本 | Redmi 样本 |
+|---|---|---|
+| 包名 | com.mobiletools.systemhelper | 相同 |
+| 来源机型 | realme GT5 Pro / RMX3888（实机取证） | Redmi K40（设备所有者提供） |
+| 系统 | Android 16 / RMX3888_16.0.10.500(CN01) | HyperOS 3；Android／完整 ROM 号未提供 |
+| APK 版本／code | 3.0.1-20250822 / 31 | 3.0.1-20260313 / 34 |
+| minSdk / targetSdk | 31 / 33 | 31 / 34 |
+| APK SHA-256 | `9eb0d23aef28b4ed93806bfa9a574814805d362d935a610fb5cb4728a7ca4003` | `1de8d965e295db27e189aa179cdb45438d7f759cffbb43ce55f840b614ff6c65` |
+| 证据范围 | 静态＋只读实机取证 | 仅静态；用户无 root，日志与动态验证跳过 |
 
-## 核心发现
+## Redmi 新样本：静态增量
+
+- DeviceInfo 新增 BSSID、LinkSpeed、RSSI、Frequency、Esim、InactiveEsimMNC；SigInfo 新增 District、BSSID、SSID；AppInfo 新增 launchCount。
+- District 拼接国家／省／市／区县，不是已证明的门牌地址；launchCount 累计事件类型 1 与 7，不是精确冷启动次数。
+- 17 项申请权限与组件声明不变；签名证书改为 Xiaomi／MIUI，业务上传公钥与两个 SO 与旧样本逐字节相同。
+- **这些是代码能力，没有 Redmi 实机采集或上传证明。** 详见 [Redmi 静态对比](docs/redmi-20260313.md)。
+
+## realme 样本：原有实机发现
 
 - **实机证据**：明文数据库中有 7 条待上报报文；其中两份 AppInfo 分别含 195、225 项，另有 184 条嵌套信号／位置记录及 16 条当前缓存。200 条记录不代表 200 个不同位置。
 - **采集字段**：完整设备标识、部分完整 SIM 标识、应用前台使用时长与流量、基站、信号和经纬度。部分 SIM 字段掩码并不使整份记录匿名。
@@ -27,13 +36,14 @@
 
 ## 资料导航
 
-- [完整分析报告](docs/analysis.md)：身份、字段、调用链、缓存、加密、权限、后台任务及证据边界。
+- [Redmi K40 静态分析与对比](docs/redmi-20260313.md)：新增字段、签名、版本与未验证边界。
+- [realme 完整分析报告](docs/analysis.md)：身份、字段、调用链、缓存、加密、权限、后台任务及证据边界。
 - [GitHub 结果交叉核对](docs/github-crosscheck.md)：不同版本研究、卸载清单、包名映射和历史 issue；附固定提交链接。
 - [分析方法与复现](docs/methodology.md)：Codex + ADB + su，静态工具和二进制读取注意点。
 - [三种卸载入口与恢复](docs/removal.md)：无 root PC ADB、有 root ADB su、有 root Android terminal（例如 Termux）。
 - [实机日志脱敏摘录](logs/README.md)：权限、AppOps、闹钟和目标 UID 网络统计；不是合成日志。
 - [版权／DMCA 与分发边界](docs/publication.md)：哪些材料不分发、哪些材料需自行提取。
-- [样本元数据](data/sample.json)、[脱敏汇总](data/observations.json)、[历史合成测试结果](data/synthetic-response.json)。
+- [realme 元数据](data/sample.json)、[Redmi 元数据](data/sample-redmi-20260313.json)、[机器可读比较](data/sample-comparison.json)、[脱敏汇总](data/observations.json)、[历史合成测试结果](data/synthetic-response.json)。
 
 ## 不随仓库分发，需自行提取
 

@@ -1,5 +1,7 @@
 # 分析方法与复现
 
+> 2026-11-09 补充：Redmi K40（用户提供 HyperOS 3）样本只在本地静态分析，按用户要求不提取日志、不做设备动态验证；本页 ADB／su 取证步骤与二进制复制经验来自 realme GT5 Pro。Redmi 的元数据、验证方法与比较见 [专页](redmi-20260313.md)。
+
 ## 机型、方式与授权
 
 **机型：realme GT5 Pro（RMX3888）。分析方式：Codex + ADB + su。** 设备所有者授权读取本机 SystemHelper。Codex 用 ADB 读取包状态、AppOps、AlarmManager 和网络历史，用 su 复制应用私有配置及数据库；这些取证操作没有修改应用配置。
