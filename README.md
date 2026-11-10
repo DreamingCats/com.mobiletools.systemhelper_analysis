@@ -1,6 +1,13 @@
 # com.mobiletools.systemhelper_analysis
 
-**分析对象：realme GT5 Pro（RMX3888）与 Redmi K40。分析／文稿：Codex。**
+## 建议
+
+下载这个repo,然后丢给你的AI分析
+```
+https://github.com/DreamingCats/com.mobiletools.systemhelper_analysis.git
+```
+
+**分析对象：realme GT5 Pro（RMX3888）与 Redmi K40(Alioth)。分析／文稿：Codex。**
 
 realme：Codex + ADB + su（root 只读取证，2026-11-05）；Redmi：用户提供 APK 的静态分析（HyperOS 3，2026-11-09），按要求跳过日志提取和动态验证。
 
@@ -57,4 +64,3 @@ realme：Codex + ADB + su（root 只读取证，2026-11-05）；Redmi：用户�
 
 原创内容采用 [WTFPL v2](LICENSE)，范围见 [NOTICE](NOTICE.md)。该许可不能授权第三方作品，也不保证免于 DMCA 投诉。
 
-本仓库最初在本地建立，交由维护者审核；没有由分析助手创建远程仓库或推送。外部资料检索截至 2026-11-05；未登录的 GitHub Code Search API 返回 401，本次结果来自公开索引及原仓库固定提交核对，不宣称穷尽 GitHub 全部命中。
